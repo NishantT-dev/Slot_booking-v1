@@ -1,4 +1,4 @@
-# Slot Booking Backend (Node.js + MySQL)
+# Slot Booking Backend  ( version 1 - Node.js + MySQL)
 
 ## Project Overview
 
@@ -10,10 +10,6 @@ The system ensures:
 * No overbooking of slots
 * Consistent database updates
 * Safe handling of multiple users booking simultaneously
-
-This is achieved using **MySQL transactions and row locking**.
-
----
 
 # Features
 
@@ -44,32 +40,6 @@ Libraries
 
 * mysql2
 * dotenv
-
----
-
-# Project Structure
-
-```
-slot-booking-backend
-│
-├── config
-│    db.js
-│
-├── controllers
-│    bookingController.js
-│
-├── routes
-│    bookingRoutes.js
-│
-├── services
-│    bookingService.js
-│
-├── app.js
-├── .env
-└── package.json
-```
-
----
 
 # Database Schema
 
