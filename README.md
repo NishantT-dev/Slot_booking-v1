@@ -40,6 +40,8 @@ Libraries
 
 * mysql2
 * dotenv
+* morgan
+* winston
 
 # Database Schema
 
